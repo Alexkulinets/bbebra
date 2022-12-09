@@ -1,0 +1,437 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
+body{
+    font-family: 'Roboto', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+title{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.name{
+    position:absolute;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ubuntu Mono', monospace;
+    margin-top: 31px;
+    font-weight: 700;
+    display: flex;
+    margin-left: 456px;
+    font-size: 50px; 
+    text-shadow: 8px 8px 15px #474545;
+}
+
+.namee{
+    position: absolute;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ubuntu Mono', monospace;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    left: 456px;
+    margin-top: 113px;
+    font-size: 50px;
+    text-shadow: 8px 8px 15px #474545 ;
+}
+
+
+header{
+    height: 745px;
+    background: rgb(107,193,255);
+    background: linear-gradient(0deg, rgba(107,193,255,1) 27%, rgba(255,165,241,1) 100%);
+    margin-inline: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    }
+
+    ul.menu{
+        position: relative;
+        box-shadow: 0px 0px 100px rgba(255,165,241,1);
+        width: 1290px;
+        height: 86px;
+        margin-top: 231px;
+        border-radius: 50px;
+        background: white;
+        list-style-type: none;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        z-index: 0;
+    }
+
+
+
+
+    ul.menu .menu-item{
+        text-align: center;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        margin-right: 90px;
+        outline:  2px solid rgb(97, 92, 92) ; 
+        font-family: 'Roboto', sans-serif;
+        font-style: 25px;
+        font-weight: 500;
+        color: rgb(104, 103, 103);
+        padding: 2.5px 5.5px;
+        transition: 0.5s;
+        cursor: pointer;
+        text-transform: uppercase;
+        user-select: none;
+    }
+
+
+
+
+    ul.menu .menu-item:hover{
+        outline: 2.5px solid rgb(97, 92, 92);
+        text-decoration: none;
+        text-transform: uppercase;
+        cursor: pointer;
+        user-select: none;
+        font-size: 1em;
+        letter-spacing: 0.20em;
+        color: white;
+        transition: .5s;
+        background: var(--crl);
+        box-shadow: 0px 0px 10px var(--crl)
+    }
+
+    ul.manu .manu-item:before{
+        content: none;
+        letter-spacing: 0.20em;
+        position: absolute;
+    }
+
+
+
+
+     
+
+   
+
+    i{
+
+        margin-bottom: -25px;
+        display: flex;
+        justify-content: center;
+        position:absolute;
+        width: 10px;
+        max-width: 10%;
+        height: 3.5%;
+        background: white;
+        transform: translateX(-20%) skewX(325deg);
+    }
+
+
+    
+.menu1{
+    box-shadow: 0px 0px 100px rgba(107,193,255,1) ;
+    position: relative;
+    width: 1290px;
+    height: 86px;
+    border-radius: 50px;
+    background: rgb(255, 255, 255);
+    margin-top: -100px;
+    z-index: 1;
+}
+
+
+
+
+ul.menu1 .menu-item1{
+     margin-right: 90px;
+    text-align: center;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    margin-right: 90px;
+    outline:  2px solid rgb(97, 92, 92) ; 
+    font-family: 'Roboto', sans-serif;
+    font-style: 25px;
+    font-weight: 500;
+    color: rgb(104, 103, 103);
+    padding: 2.5px 5.5px;
+    transition: 0.5s;
+    cursor: pointer;
+    text-transform: uppercase;
+    user-select: none;
+}
+
+    
+        ul.menu1 .menu-item1{
+
+            text-align: center;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            outline:  2px solid rgb(97, 92, 92) ; 
+            font-family: 'Roboto', sans-serif;
+            font-style: 25px;
+            font-weight: 500;
+            color: rgb(104, 103, 103);
+            padding: 2.5px 5.5px;
+            transition: 0.5s;
+            cursor: pointer;
+            text-transform: uppercase;
+            user-select: none;
+        }
+    
+
+        ul.menu1 .menu-item1:hover{
+            outline: 2.5px solid rgb(97, 92, 92);
+            text-decoration: none;
+            text-transform: uppercase;
+            cursor: pointer;
+            user-select: none;
+            font-size: 1em;
+            letter-spacing: 0.20em;
+            color: white;
+            transition: .5s;
+            background: var(--crl);
+            box-shadow: 0px 0px 10px var(--crl)
+        }
+    
+        ul.manu1 .manu-item1:before{
+            content: none;
+            letter-spacing: 0.20em;
+            position: absolute;
+        }
+    
+    
+    
+        
+         
+    
+    
+       
+    
+        a{  
+    
+          
+        margin-bottom: -25.5px;
+        display: flex;
+        justify-content: center;
+        position:absolute;
+        width: 10px;
+        max-width: 10%;
+        height: 2.5%;
+        background: white;
+        transform: translateX(-20%) skewX(325deg);  
+            
+        }
+    
+
+
+        ul.menu1{
+            box-shadow: 0px 0px 100px rgba(107,193,255,1) ;
+            position: relative;
+            width: 1290px;
+            height: 86px;
+            margin-top: -300px;
+            border-radius: 50px;
+            right: -110px;
+            background: rgb(255, 255, 255);
+            list-style-type: none;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            z-index: 0;
+        }
+        
+        
+        
+        
+        ul.menu1 .menu-item1{
+             margin-right: 90px;
+            text-align: center;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            margin-right: 90px;
+            outline:  2px solid rgb(97, 92, 92) ; 
+            font-family: 'Roboto', sans-serif;
+            font-style: 25px;
+            font-weight: 500;
+            color: rgb(104, 103, 103);
+            padding: 2.5px 5.5px;
+            transition: 0.5s;
+            cursor: pointer;
+            text-transform: uppercase;
+            user-select: none;
+        }
+        
+            
+                ul.menu1 .menu-item1{
+        
+                    text-align: center;
+                    border-radius: 5px;
+                    display: flex;
+                    align-items: center;
+                    outline:  2px solid rgb(97, 92, 92) ; 
+                    font-family: 'Roboto', sans-serif;
+                    font-style: 25px;
+                    font-weight: 500;
+                    color: rgb(104, 103, 103);
+                    padding: 2.5px 5.5px;
+                    transition: 0.5s;
+                    cursor: pointer;
+                    text-transform: uppercase;
+                    user-select: none;
+                }
+            
+        
+                ul.menu1 .menu-item1:hover{
+                    outline: 2.5px solid rgb(97, 92, 92);
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    cursor: pointer;
+                    user-select: none;
+                    font-size: 1em;
+                    letter-spacing: 0.20em;
+                    color: white;
+                    transition: .5s;
+                    background: var(--crl);
+                    box-shadow: 0px 0px 10px var(--crl)
+                }
+            
+                ul.manu1 .manu-item1:before{
+                    content: none;
+                    letter-spacing: 0.20em;
+                    position: absolute;
+                }
+            
+            
+            
+                
+                 
+            
+            
+               
+            
+                a{  
+            
+                  
+                margin-bottom: -25.5px;
+                display: flex;
+                justify-content: center;
+                position:absolute;
+                width: 10px;
+                max-width: 10%;
+                height: 2.5%;
+                background: white;
+                transform: translateX(-20%) skewX(325deg);  
+                    
+                }
+
+
+
+
+
+
+
+
+
+                .menu1{
+                    box-shadow: 0px 0px 100px rgba(107,193,255,1) ;
+                    position: relative;
+                    width: 1290px;
+                    height: 86px;
+                    border-radius: 50px;
+                    background: rgb(255, 255, 255);
+                    margin-top: -100px;
+                    z-index: 1;
+                }
+                
+                
+                
+                
+                ul.menu1 .menu-item1{
+                     margin-right: 90px;
+                    text-align: center;
+                    border-radius: 5px;
+                    display: flex;
+                    align-items: center;
+                    margin-right: 90px;
+                    outline:  2px solid rgb(97, 92, 92) ; 
+                    font-family: 'Roboto', sans-serif;
+                    font-style: 25px;
+                    font-weight: 500;
+                    color: rgb(104, 103, 103);
+                    padding: 2.5px 5.5px;
+                    transition: 0.5s;
+                    cursor: pointer;
+                    text-transform: uppercase;
+                    user-select: none;
+                }
+                
+                    
+                        ul.menu1 .menu-item1{
+                
+                            text-align: center;
+                            border-radius: 5px;
+                            display: flex;
+                            align-items: center;
+                            outline:  2px solid rgb(97, 92, 92) ; 
+                            font-family: 'Roboto', sans-serif;
+                            font-style: 25px;
+                            font-weight: 500;
+                            color: rgb(104, 103, 103);
+                            padding: 2.5px 5.5px;
+                            transition: 0.5s;
+                            cursor: pointer;
+                            text-transform: uppercase;
+                            user-select: none;
+                        }
+                    
+                
+                        ul.menu1 .menu-item1:hover{
+                            outline: 2.5px solid rgb(97, 92, 92);
+                            text-decoration: none;
+                            text-transform: uppercase;
+                            cursor: pointer;
+                            user-select: none;
+                            font-size: 1em;
+                            letter-spacing: 0.20em;
+                            color: white;
+                            transition: .5s;
+                            background: var(--crl);
+                            box-shadow: 0px 0px 10px var(--crl)
+                        }
+                    
+                        ul.manu1 .manu-item1:before{
+                            content: none;
+                            letter-spacing: 0.20em;
+                            position: absolute;
+                        }
+                    
+                    
+                    
+                        
+                         
+                    
+                    
+                       
+                    
+                        a{  
+                    
+                          
+                        margin-bottom: -25.5px;
+                        display: flex;
+                        justify-content: center;
+                        position:absolute;
+                        width: 10px;
+                        max-width: 10%;
+                        height: 2.5%;
+                        background: white;
+                        transform: translateX(-20%) skewX(325deg);  
+                            
+                        }
+                    
